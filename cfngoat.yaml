@@ -288,7 +288,7 @@ Resources:
       AllocatedStorage: 20
       MasterUsername: admin
       MasterUserPassword: !Ref Password
-      MultiAZ: False
+      MultiAZ: True
       BackupRetentionPeriod: 0 
       StorageEncrypted: False
       MonitoringInterval: 0 
